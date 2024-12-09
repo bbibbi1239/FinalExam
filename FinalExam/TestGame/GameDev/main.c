@@ -49,24 +49,70 @@ void Initialize(GameObject_Line* obj, int objNum)
     obj[1].Scale.x = 1;
     obj[1].Scale.y = 1;
 }
+
 int Input()
 {
     if (_kbhit()) {
         char ch = _getch();
-        if (ch == 27) {  // ESC 키가 눌리면 게임 종료
+        switch (ch) {
+        case 27:  // ESC 키
             return 99;
+        case 'a':  // 좌회전
+            return 1;
+        case 'd':  // 우회전
+            return 2;
+        case 'w':  // 전진
+            return 3;
+        case 's':  // 후진
+            return 4;
+        default:
+            return 0;
         }
     }
     return 0;
 }
 void Update(GameObject_Line* obj, int objNum, int e)
 {
-    // 삼각형과 점 모두 회전
-    for (int i = 0; i < 2; i++) {  // 2개의 오브젝트에 대해 처리
-        obj[i].Rotation += 0.02f;
-        if (obj[i].Rotation > 2 * PI) {
-            obj[i].Rotation -= 2 * PI;
+    // 키 입력에 따른 회전 (1도씩)
+    if (e == 1) {  // 'a' 키: 좌회전
+        obj[0].Rotation -= 1.0f;
+        obj[1].Rotation = obj[0].Rotation;
+    }
+    else if (e == 2) {  // 'd' 키: 우회전
+        obj[0].Rotation += 1.0f;
+        obj[1].Rotation = obj[0].Rotation;
+    }
+    else if (e == 3 || e == 4) {  // 'w' 키: 전진, 's' 키: 후진
+        // 현재 회전 각도를 라디안으로 변환
+        float radians = obj[0].Rotation * (PI / 180.0f);
+
+        // 이동 방향 계산 (삼각형의 상단 꼭지점 방향)
+        float dx = sinf(radians) * 0.1f;  // x 방향 이동량
+        float dy = -cosf(radians) * 0.1f; // y 방향 이동량 (y축이 아래로 증가하므로 음수)
+
+        // 전진 또는 후진
+        if (e == 3) {  // 전진
+            obj[0].Position.x += dx;
+            obj[0].Position.y += dy;
+            obj[1].Position.x += dx;
+            obj[1].Position.y += dy;
         }
+        else {  // 후진
+            obj[0].Position.x -= dx;
+            obj[0].Position.y -= dy;
+            obj[1].Position.x -= dx;
+            obj[1].Position.y -= dy;
+        }
+    }
+
+    // 회전각이 360도를 넘어가면 조정
+    if (obj[0].Rotation < 0) {
+        obj[0].Rotation += 360.0f;
+        obj[1].Rotation = obj[0].Rotation;
+    }
+    else if (obj[0].Rotation >= 360.0f) {
+        obj[0].Rotation -= 360.0f;
+        obj[1].Rotation = obj[0].Rotation;
     }
 }
 void Elf2DDrawLine2(float x1, float y1, float x2, float y2, char* Buffer, int width, int height, const char* symbol)
