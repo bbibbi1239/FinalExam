@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\Elf2D.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|solutionrelative:TestGame\\GameDev\\Elf2D.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|solutionrelative:TestGame\\GameDev\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\ElfObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|solutionrelative:TestGame\\GameDev\\ElfObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\Elf2D.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|solutionrelative:TestGame\\GameDev\\Elf2D.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB3E5D22-DA21-4E35-833F-1BEF13F12AAB}|TestGame\\TestGame.vcxproj|C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\Elf2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -29,10 +29,6 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Elf2D.h",
@@ -46,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Elf2D.c",
               "DocumentMoniker": "C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\Elf2D.c",
               "RelativeDocumentMoniker": "TestGame\\GameDev\\Elf2D.c",
@@ -54,33 +50,33 @@
               "RelativeToolTip": "TestGame\\GameDev\\Elf2D.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-12-04T07:29:14.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T07:29:14.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\main.c",
               "RelativeDocumentMoniker": "TestGame\\GameDev\\main.c",
               "ToolTip": "C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\main.c",
               "RelativeToolTip": "TestGame\\GameDev\\main.c",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-12-04T07:24:45.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ElfObject.h",
               "DocumentMoniker": "C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\ElfObject.h",
               "RelativeDocumentMoniker": "TestGame\\GameDev\\ElfObject.h",
               "ToolTip": "C:\\Users\\owner\\Desktop\\\uAC8C\uC784\uC81C\uC791\uC2DC\uD5D8\\FinalExam\\FinalExam\\TestGame\\GameDev\\ElfObject.h",
               "RelativeToolTip": "TestGame\\GameDev\\ElfObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-08T20:59:06.054Z"
+              "WhenOpened": "2024-12-08T20:59:06.054Z",
+              "EditorCaption": ""
             }
           ]
         }
