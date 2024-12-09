@@ -1,6 +1,7 @@
-﻿  main.c
+﻿  Elf2D.c
+  ElfObject.c
+  main.c
+  코드를 생성하고 있습니다...
 C:\Users\owner\Desktop\게임제작시험\FinalExam\FinalExam\TestGame\GameDev\main.c(18,25): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\owner\Desktop\게임제작시험\FinalExam\FinalExam\TestGame\GameDev\main.c(45,9): warning C4013: '_kbhit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\owner\Desktop\게임제작시험\FinalExam\FinalExam\TestGame\GameDev\main.c(46,19): warning C4013: '_getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\owner\Desktop\게임제작시험\FinalExam\FinalExam\TestGame\GameDev\main.c(130,30): warning C4244: '함수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\owner\Desktop\게임제작시험\FinalExam\FinalExam\TestGame\GameDev\main.c(52,30): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
   TestGame.vcxproj -> C:\Users\owner\Desktop\게임제작시험\FinalExam\FinalExam\x64\Debug\TestGame.exe

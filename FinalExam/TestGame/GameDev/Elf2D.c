@@ -69,7 +69,6 @@ void Elf2DDrawLine(int x1, int y1, int x2, int y2, char* Buffer, int width, int 
     }
 }
 
-
 void Elf2DSleep(int ms)
 {
     Sleep(ms);

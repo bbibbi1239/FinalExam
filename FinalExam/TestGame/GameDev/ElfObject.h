@@ -1,5 +1,5 @@
-#ifndef ELFOBJECT_H  // 정의되어 있지 않으면
-#define ELFOBJECT_H  // 정의하고 아래 코드를 컴파일
+#ifndef ELFOBJECT_H
+#define ELFOBJECT_H
 
 #include "ElfMath.h"
 
@@ -8,15 +8,18 @@ typedef struct
 {
     //Transform
     Vector2 Position;
-    float Rotation;
     Vector2 Scale;
+    float Rotation;
 
     //Geometry
-    Vector2 Line[2];
+    Vector2 Line[3];  // 배열 크기를 3으로 수정
 
     //픽셀채울 글자
-    char* Symbol;
+    const char* Symbol;  // const 추가
 
-}GameObject_Line;
+    //현재 라인 개수
+    int LineCount;    // 라인 카운트 추가
+
+} GameObject_Line;
 
 #endif
